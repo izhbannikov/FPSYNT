@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="fpsynt" root=".">
+      <in>Branch.cpp</in>
+      <in>Branch.h</in>
+      <in>Branch_p.cpp</in>
+      <in>Branch_p.h</in>
+      <in>Converter.cpp</in>
+      <in>Converter.h</in>
+      <in>FNode.cpp</in>
+      <in>FNode.h</in>
+      <in>FTree.cpp</in>
+      <in>FTree.h</in>
+      <in>GTreeLevel.cpp</in>
+      <in>GTreeLevel.h</in>
+      <in>Graph.cpp</in>
+      <in>Graph.h</in>
+      <in>GraphLevel.cpp</in>
+      <in>GraphLevel.h</in>
+      <in>GraphNode.cpp</in>
+      <in>GraphNode.h</in>
+      <in>GraphTree.cpp</in>
+      <in>GraphTree.h</in>
+      <in>Sif.cpp</in>
+      <in>Sif.h</in>
+      <in>Statistics.cpp</in>
+      <in>Statistics.h</in>
+      <in>Worker.cpp</in>
+      <in>Worker.h</in>
+      <in>main.cpp</in>
+      <in>timer.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>fpsynt</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="Branch.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Branch_p.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Converter.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="FNode.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="FTree.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="GTreeLevel.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Graph.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="GraphLevel.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="GraphNode.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="GraphTree.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Sif.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Statistics.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="Worker.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="timer.h" ex="true" tool="3" flavor="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
